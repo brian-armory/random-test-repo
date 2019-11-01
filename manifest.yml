@@ -1,0 +1,13 @@
+name: armory/s3copy
+description: Copies S3 files to different locations
+manifestVersion: plugins/v1
+version: 1.2.3
+options:
+  s3:
+    username: user
+    password: pass
+resources:
+  orca:
+  - https://stage-plugin-test.s3-us-west-2.amazonaws.com/stage-plugin-0.0.1-SNAPSHOT.jar
+  deck:
+  - https://stage-plugin-test.s3-us-west-2.amazonaws.com/stage-plugin-ui-0.0.1-SNAPSHOT.js
